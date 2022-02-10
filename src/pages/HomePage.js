@@ -1,9 +1,12 @@
 import React from 'react'
+import Navbar from '../components/Navbar'
+import { PreNav } from '../components/PreNav'
 
 const HomePage = () => {
     return (
         <div>
-            <h1>Home Page</h1>
+            <PreNav />
+            <Navbar />
         </div>
     )
 }
