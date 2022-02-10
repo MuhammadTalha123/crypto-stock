@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '../components/Navbar'
 import { PreNav } from '../components/PreNav'
 import { FirstSection } from '../components/sections/FirstSection'
+import { SecondSection } from '../components/sections/SecondSection'
 
 const HomePage = () => {
     return (
@@ -9,6 +10,7 @@ const HomePage = () => {
             <PreNav />
             <Navbar />
             <FirstSection />
+            <SecondSection />
         </div>
     )
 }
